@@ -8,11 +8,31 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href=".\style.css" />
+    <link rel="stylesheet" type="text/css" href=".\indexStyle.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
       rel="stylesheet"
     />
+
+    <script>
+      $(document).ready(function() {
+        $(document).on("click", "#Contact", function(e) {
+          e.preventDefault();
+          $("#bodyAcasa").load("contact.html");
+          var myStylesLocation = "/contactStyle.css";
+        });
+        $(document).on("click", "#Shop", function(e) {
+          e.preventDefault();
+          $("#bodyAcasa").load("shop.html");
+          var myStylesLocation = "/shopStyle.css";
+        });
+        $(document).on("click", "#Acasa", function(e) {
+          e.preventDefault();
+          $("#bodyAcasa").load("acasa.html");
+          var myStylesLocation = "/acasaStyle.css";
+        });
+      });
+    </script>
   </head>
 
   <header>
@@ -36,7 +56,7 @@
               <a class="nav-link" href="#" id="Acasa"><b>Acasa</b> </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" id="Poze"><b>Shop</b></a>
+              <a class="nav-link" href="#" id="Shop"><b>Shop</b></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#" id="Contact"><b>Contact</b></a>

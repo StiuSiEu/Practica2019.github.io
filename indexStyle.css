@@ -65,17 +65,6 @@
   background: #eee;
   flex: 1;
 }
-.title-elem {
-  text-align: center;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 2vw;
-  src: local("Roboto Light Italic"), local("Roboto-LightItalic"),
-    url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TjASc-CsTKlA.woff2)
-      format("woff2");
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1;
-}
 
 .home-description {
   text-align: justify;

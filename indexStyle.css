@@ -1,6 +1,6 @@
 .fa {
-  padding: 1.8vw;
-  font-size: 1.75vw;
+  padding: 1.5vw;
+  font-size: 1.4vw;
   width: 3vw;
   height: 3vw;
   float: middle;
@@ -11,12 +11,16 @@
 .fa-facebook {
   background: #3b5998;
   color: white;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
 }
 
 .fa-twitter {
   background: #55acee;
   color: white;
   margin-right: 45vw;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
 }
 .fa:hover {
   opacity: 0.7;

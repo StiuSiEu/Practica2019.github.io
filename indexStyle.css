@@ -1,26 +1,33 @@
 .fa {
-  padding: 2vw;
-  font-size: 2.5vw;
-  width: 4.4vw;
-  height: 4.5vw;
+  padding: 1.5vw;
+  font-size: 1.4vw;
+  width: 3vw;
+  height: 3vw;
   float: middle;
+  margin-top: 0.5vw;
+  margin-bottom: 0.5vw;
 }
 
 .fa-facebook {
   background: #3b5998;
   color: white;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
 }
 
 .fa-twitter {
   background: #55acee;
   color: white;
+  margin-right: 45vw;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
 }
 .fa:hover {
   opacity: 0.7;
 }
 .footertext {
   float: left;
-  padding-left: 15vw;
+  margin-left: 20vw;
   padding-top: 1.6vw;
   font-size: 1vw;
 }
@@ -32,6 +39,7 @@
   background-color: #8c96a1 !important;
   color: white;
   text-align: center;
+  font-family: "Roboto", sans-serif;
 }
 .call-me {
   float: right;

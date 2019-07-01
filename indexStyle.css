@@ -1,31 +1,41 @@
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    text-decoration: none;
-  }
+  padding: 2vw;
+  font-size: 2.5vw;
+  width: 4.4vw;
+  height: 4.5vw;
+  float: middle;
+}
 
 .fa-facebook {
-    background: #3B5998;
-    color: white;
-    margin-left: 5px;
-  }
+  background: #3b5998;
+  color: white;
+}
 
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-    margin-left: 5px;
-  }
-  .fa:hover {
-    opacity: 0.7;
-  }
-  .footertext{
-    float: left;
-  }
-  .social-media{
-    display: inline-block;
-    position:absolute;
-    bottom:0;
-  }
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.footertext {
+  float: left;
+  padding-left: 15vw;
+  padding-top: 1.6vw;
+  font-size: 1vw;
+}
+.container-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #8c96a1 !important;
+  color: white;
+  text-align: center;
+}
+.call-me {
+  float: right;
+  padding-top: 1.6vw;
+  padding-right: 2vw;
+  font-size: 1vw;
+}

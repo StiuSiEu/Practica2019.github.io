@@ -13,6 +13,7 @@
   color: white;
   -moz-border-radius: 40px;
   -webkit-border-radius: 40px;
+  border-radius: none;
 }
 
 .fa-twitter {
@@ -21,6 +22,7 @@
   margin-right: 45vw;
   -moz-border-radius: 40px;
   -webkit-border-radius: 40px;
+  border-radius: none;
 }
 .fa:hover {
   opacity: 0.7;

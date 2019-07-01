@@ -1,4 +1,7 @@
 .container-Maps {
+  margin-top: 2vw;
+  margin-left: 21vw;
+  margin-right: 20vw;
 }
 .mapouter {
   position: relative;
@@ -11,4 +14,8 @@
   background: none !important;
   height: 500px;
   width: 1080px;
+}
+.iframe20 {
+  width: 70vw;
+  height: 35vw;
 }

@@ -1,0 +1,212 @@
+.fa {
+  padding: 1.2vw;
+  font-size: 1.2vw;
+  width: 2vw;
+  height: 2vw;
+  float: middle;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  border-radius: none;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+  margin-right: 45vw;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  border-radius: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.footertext {
+  float: left;
+  margin-left: 20vw;
+  padding-top: 1.6vw;
+  font-size: 1vw;
+}
+.container-footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(226, 226, 226, 0.582);
+  color: black;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  z-index: 4;
+}
+.call-me {
+  float: right;
+  padding-top: 1.6vw;
+  padding-right: 2vw;
+  font-size: 1vw;
+}
+.home-container {
+  display: flex;
+  min-height: 100vh;
+  flex-flow: row wrap;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+
+.photo1 {
+  flex: 1;
+  background: #eee;
+  flex-shrink: 1;
+  margin: 0;
+}
+.bodyAcasa {
+  flex: 3;
+  flex-shrink: 2;
+}
+.photo2 {
+  background: #eee;
+  flex: 1;
+  flex-shrink: 1;
+  margin: auto;
+}
+.title-elem {
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  margin-top: 5vw;
+  src: local("Roboto Light Italic"), local("Roboto-LightItalic"),
+    url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TjASc-CsTKlA.woff2)
+      format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1;
+}
+
+.home-description {
+  text-align: justify;
+  margin-top: 5vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 500;
+  src: local("Roboto Light Italic"), local("Roboto-LightItalic"),
+    url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TjASc-CsTKlA.woff2)
+      format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1;
+}
+
+.photosinsidetext {
+  display: flex;
+  background-color: white;
+  flex: 50rem;
+  margin: 0;
+  padding: 0;
+  max-height: 50vh;
+  margin-top: 10vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.photosinsidetext img {
+  max-width: 100%;
+  max-height: 100%;
+}
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .bodyAcasa {
+    flex: 2 2 70em;
+    flex-shrink: 1;
+  }
+  .photo1 {
+    display: none;
+  }
+
+  .photo2 {
+    display: none;
+  }
+  .photosinsidetext {
+    display: flex;
+    background-color: white;
+    flex: 50em;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 50vw;
+    max-height: 50vw;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  .home-description {
+    text-align: justify;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    src: local("Roboto Light Italic"), local("Roboto-LightItalic"),
+      url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TjASc-CsTKlA.woff2)
+        format("woff2");
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1;
+  }
+
+  .photosinsidetext img {
+    max-width: 100%;
+    max-height: 100%;
+    float: left;
+  }
+}

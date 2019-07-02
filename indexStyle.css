@@ -11,9 +11,11 @@
 .fa-facebook {
   background: #3b5998;
   color: white;
-  -moz-border-radius: 40px;
-  -webkit-border-radius: 40px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
   border-radius: none;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .fa-twitter {
@@ -23,15 +25,19 @@
   -moz-border-radius: 40px;
   -webkit-border-radius: 40px;
   border-radius: none;
+  margin-bottom: 0px;
+  margin-top: 0.5vw;
 }
 .fa:hover {
-  opacity: 0.7;
+  opacity: 0.9;
 }
 .footertext {
   float: left;
   margin-left: 20vw;
-  padding-top: 1.6vw;
+  padding-top: 0.9vw;
   font-size: 1vw;
+  margin-bottom: 0px;
+  m
 }
 .container-footer {
   position: fixed;
@@ -46,9 +52,10 @@
 }
 .call-me {
   float: right;
-  padding-top: 1.6vw;
+  padding-top: 0.9vw;
   padding-right: 2vw;
   font-size: 1vw;
+  margin-bottom: 0px;
 }
 .home-container {
   display: flex;

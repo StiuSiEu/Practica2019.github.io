@@ -34,7 +34,7 @@
   font-size: 1vw;
 }
 .container-footer {
-  position: relative;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -209,4 +209,11 @@
     max-height: 100%;
     float: left;
   }
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
 }

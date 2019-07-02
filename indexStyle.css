@@ -38,8 +38,8 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #8c96a1 !important;
-  color: white;
+  background-color:rgba(255, 157, 42, 0.5); !important;
+  color: black;
   text-align: center;
   font-family: "Roboto", sans-serif;
 }
@@ -62,6 +62,7 @@
     flex:1;
     background: #eee;
     flex-shrink: 1;
+    margin:0;
 }
 .bodyAcasa{
     flex: 3;
@@ -71,6 +72,7 @@
   background: #eee;
   flex: 1;
   flex-shrink: 1;
+  margin:auto;
 }
 .title-elem{
   text-align: center;
@@ -78,12 +80,14 @@
   font-style: normal;
   font-weight: 800;
   font-size: 30px;
+  margin-top:5vw;
   src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TjASc-CsTKlA.woff2) format('woff2');
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1,
 }
 
 .home-description{
   text-align: justify;
+  margin-top: 5vw;
   margin-left: 5vw;
   margin-right: 5vw;
   font-family: 'Roboto';
@@ -146,6 +150,8 @@
   from {opacity: .4} 
   to {opacity: 1}
 }
+
+
 @media screen and ( max-width:900px ){	
   .bodyAcasa{
     flex: 2 2 70em;

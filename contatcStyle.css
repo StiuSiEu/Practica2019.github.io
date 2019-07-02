@@ -19,3 +19,13 @@
   width: 60vw;
   height: 30vw;
 }
+.iframeForm {
+  width: 50vw;
+  height: 52vw;
+}
+.container-form {
+  position: relative;
+  margin-top: 11vw;
+  margin-left: 25vw;
+  margin-right: 33vw;
+}

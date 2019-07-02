@@ -31,7 +31,7 @@
 }
 .some-page-wrapper {
   margin: 15px;
-  background-color: red;
+  margin-top: 9vw;
 }
 
 .row {
@@ -49,11 +49,40 @@
 }
 
 .blue-column {
-  background-color: blue;
   height: 100px;
 }
 
 .green-column {
-  background-color: green;
   height: 100px;
+  color: #000;
+  font-family: metawp, Trebuchet MS, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  line-height: 1.25em;
+  margin: 1em 0 0.5em;
+  text-rendering: optimizeLegibility;
+}
+.vl {
+  padding-left: 20px;
+  border-left: 1px solid;
+
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 50px;
+
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+
+  border-width: 1px;
+}
+
+p {
+  margin: 1em 0;
+  display: block;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }

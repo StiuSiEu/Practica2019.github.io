@@ -36,6 +36,28 @@
       href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
       rel="stylesheet"
     />
+    <script>
+      $(document).ready(function(){
+     $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) {
+                $('#back-to-top').fadeIn();
+            } else {
+                $('#back-to-top').fadeOut();
+            }
+        });
+        // scroll body to 0px on click
+        $('#back-to-top').click(function () {
+            $('#back-to-top').tooltip('hide');
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
+        
+        $('#back-to-top').tooltip('show');
+
+});
+    </script>
 
     <script>
       $(document).ready(function() {
@@ -93,6 +115,8 @@
     </body>
   </body>
 
+
+
   <footer>
     <!--Footer with social media icons and links-->
     <div class="container-footer">
@@ -102,7 +126,7 @@
       <p class="call-me">Contact: 0740080085</p>
     </div>
   </footer>
-
+<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
   <script
     src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"

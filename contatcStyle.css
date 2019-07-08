@@ -96,6 +96,7 @@ h2{
 /* Slider */
 .container {
   margin-top: 5vw;
+  width: 95vw !important;
 }
 .carousel-text {
   text-align: center;

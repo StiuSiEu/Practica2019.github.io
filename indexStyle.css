@@ -228,7 +228,7 @@
   cursor: pointer;
   position: fixed;
   bottom: 4vw;
-  right: 4vw;
+  right: 2vw;
   display: none;
   z-index: 99;
   width: 2vw;

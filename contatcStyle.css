@@ -98,6 +98,10 @@ h2{
   margin-top: 5vw;
   min-width: 100vw;
 }
+.navbar {
+  position: sticky;
+}
+
 .carousel-text {
   text-align: center;
 }

@@ -227,8 +227,10 @@
 .back-to-top {
   cursor: pointer;
   position: fixed;
-  bottom: 2vw;
-  right: 2vw;
+  bottom: 4vw;
+  right: 4vw;
   display: none;
   z-index: 99;
+  width: 2vw;
+  height: 2vw;
 }
